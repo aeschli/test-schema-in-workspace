@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "folder1"
+		},
+		{
+			"path": "folder2"
+		}
+	],
+	"settings": {
+		"json.trace.server": "verbose",
+		"json.schemas": [
+			{
+				"fileMatch": [ "ws.json" ],
+				"url": "./folder2/ws-schema.json"
+			}
+		]
+	}
+}
